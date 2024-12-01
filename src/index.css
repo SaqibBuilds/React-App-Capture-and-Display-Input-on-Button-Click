@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.printValues input[type="text"] {
+  background: #fff;
+  border: 0;
+  outline: 0;
+  padding: 15px 15px;
+  min-width: 300px;
+  font-size: 15px;
+}
+
+.printValues button {
+  padding: 15px 15px;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  cursor: pointer;
+  background: #d85d19;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.printValues span {
+  background: #d85d19;
+  line-height: 1;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+::selection {
+  background: #fff;
+  color: #d85d19;
+}
